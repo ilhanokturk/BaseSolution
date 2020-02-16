@@ -1,0 +1,17 @@
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.LogLayer.deps.json
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.LogLayer.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.LogLayer.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Abstraction.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.DTO.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Entity.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Utilities.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Abstraction.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Utilities.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.DTO.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\bin\Debug\netcoreapp3.1\BaseSolution.Entity.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.csprojAssemblyReference.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.AssemblyInfoInputs.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.AssemblyInfo.cs
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.csproj.CopyComplete
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.LogLayer\obj\Debug\netcoreapp3.1\BaseSolution.LogLayer.pdb

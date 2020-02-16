@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseSolution.Context\BaseSolution.Context.csproj" />
+    <ProjectReference Include="..\BaseSolution.Core\BaseSolution.Core.csproj" />
+    <ProjectReference Include="..\BaseSolution.Data\BaseSolution.Data.csproj" />
+    <ProjectReference Include="..\BaseSolution.DTO\BaseSolution.DTO.csproj" />
+    <ProjectReference Include="..\BaseSolution.Utilities\BaseSolution.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer  localizer
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@localizer["Category Name"]
+<div class="row row-md m-b-1">
+    <div class="col-md-4">
+        <div class="box bg-white user-1">
+            <div class="u-img img-cover" style="background-image: url(~/img/photos-1/4.jpg);"></div>
+            <div class="u-content">
+                <div class="avatar box-64">
+                    <img class="b-a-radius-circle shadow-white" src="~/img/avatars/1.jpg" alt="">
+                    <i class="status bg-success bottom right"></i>
+                </div>
+                <h5><a class="text-black" href="#">Larry Hal</a></h5>
+                <p class="text-muted p-b-0-5">Editor, project manager</p>
+                <div class="text-xs-center p-b-0-5">
+                    <button type="submit" class="btn btn-outline-primary btn-rounded m-r-0-5">New task <i class="ti-plus m-l-0-5"></i></button>
+                    <button type="submit" class="btn btn-success btn-rounded">Compose email</button>
+                </div>
+            </div>
+            <div class="u-counters">
+                <div class="row no-gutter">
+                    <div class="col-xs-6 uc-item">
+                        <a class="text-black" href="#">
+                            <strong>137</strong>
+                            <span>New messages</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 uc-item">
+                        <a class="text-black" href="#">
+                            <strong>459</strong>
+                            <span>Open tickets</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

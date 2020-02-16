@@ -1,0 +1,11 @@
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\bin\Debug\netcoreapp3.1\BaseSolution.Utilities.deps.json
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\bin\Debug\netcoreapp3.1\BaseSolution.Utilities.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\bin\Debug\netcoreapp3.1\BaseSolution.Utilities.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\bin\Debug\netcoreapp3.1\BaseSolution.DTO.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\bin\Debug\netcoreapp3.1\BaseSolution.DTO.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.csprojAssemblyReference.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.AssemblyInfoInputs.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.AssemblyInfo.cs
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.csproj.CopyComplete
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Utilities\obj\Debug\netcoreapp3.1\BaseSolution.Utilities.pdb

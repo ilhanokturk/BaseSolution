@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Http.Features
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+@using BaseSolution.Utilities.Extensions
+@inject IViewLocalizer Localizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var cultureItems = LocOptions.Value.SupportedUICultures
+        .Select(c => new SelectListItem { Value = c.Name, Text = c.DisplayName })
+        .ToList();
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+    var count = cultureItems.Count();
+    var counter = 0;
+}
+
+    @*<script src="~/js/_selectLanguage.js"></script>*@
+
+<form id="selectLanguage" asp-area="" asp-controller="Setting"
+      asp-action="SetLanguage" asp-route-returnUrl="@returnUrl"
+      method="post" class="form-horizontal" role="form">
+    @*<label asp-for="@requestCulture.RequestCulture.UICulture.Name">@Localizer["Language:"]</label>*@
+    <div class="btn-group" role="group">
+        @foreach (var item in cultureItems)
+        {
+            counter++;
+            var stringSplit = item.Value.Split("-")[1].ToUrlSlug();
+            if (counter != count)
+            {
+                <input type="submit" class="btn btn-link flag-icon flag-icon-@stringSplit" data-returnUrl="@returnUrl" value="" data-language="@item.Value">
+                <span class="separator"></span>
+            }
+            else
+            {
+                <input type="submit" class="btn btn-link flag-icon flag-icon-@stringSplit" data-returnUrl="@returnUrl" value="" data-language="@item.Value">
+            }
+        }
+    </div>
+</form>
+

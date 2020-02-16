@@ -1,0 +1,8 @@
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\bin\Debug\netcoreapp3.1\BaseSolution.Validation.deps.json
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\bin\Debug\netcoreapp3.1\BaseSolution.Validation.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\bin\Debug\netcoreapp3.1\BaseSolution.Validation.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\obj\Debug\netcoreapp3.1\BaseSolution.Validation.AssemblyInfoInputs.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\obj\Debug\netcoreapp3.1\BaseSolution.Validation.AssemblyInfo.cs
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\obj\Debug\netcoreapp3.1\BaseSolution.Validation.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\obj\Debug\netcoreapp3.1\BaseSolution.Validation.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Validation\obj\Debug\netcoreapp3.1\BaseSolution.Validation.csprojAssemblyReference.cache

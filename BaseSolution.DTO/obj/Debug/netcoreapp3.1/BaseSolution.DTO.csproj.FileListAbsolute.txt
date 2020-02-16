@@ -1,0 +1,8 @@
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\bin\Debug\netcoreapp3.1\BaseSolution.DTO.deps.json
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\bin\Debug\netcoreapp3.1\BaseSolution.DTO.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\bin\Debug\netcoreapp3.1\BaseSolution.DTO.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\obj\Debug\netcoreapp3.1\BaseSolution.DTO.csprojAssemblyReference.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\obj\Debug\netcoreapp3.1\BaseSolution.DTO.AssemblyInfoInputs.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\obj\Debug\netcoreapp3.1\BaseSolution.DTO.AssemblyInfo.cs
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\obj\Debug\netcoreapp3.1\BaseSolution.DTO.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.DTO\obj\Debug\netcoreapp3.1\BaseSolution.DTO.pdb

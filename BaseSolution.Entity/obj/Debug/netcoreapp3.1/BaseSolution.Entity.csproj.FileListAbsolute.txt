@@ -1,0 +1,8 @@
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\bin\Debug\netcoreapp3.1\BaseSolution.Entity.deps.json
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\bin\Debug\netcoreapp3.1\BaseSolution.Entity.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\bin\Debug\netcoreapp3.1\BaseSolution.Entity.pdb
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\obj\Debug\netcoreapp3.1\BaseSolution.Entity.csprojAssemblyReference.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\obj\Debug\netcoreapp3.1\BaseSolution.Entity.AssemblyInfoInputs.cache
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\obj\Debug\netcoreapp3.1\BaseSolution.Entity.AssemblyInfo.cs
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\obj\Debug\netcoreapp3.1\BaseSolution.Entity.dll
+C:\Users\child\source\repos\BaseSolution\BaseSolution.Entity\obj\Debug\netcoreapp3.1\BaseSolution.Entity.pdb

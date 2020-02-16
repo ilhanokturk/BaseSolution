@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Http
+@using BaseSolution.MVC.Resources
+@inject IHttpContextAccessor _accessor
+@inject IViewLocalizer Localizer
+@inject LocalizationService _localizer
+
+@model PaginationAndFilterDataViewModel<CategoryListDTO>
+@{
+    ViewData["Title"] = "CategoryListWithPaging";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Css{
+
+    <link href="~/css/style.css" rel="stylesheet" />
+}
+
+<form asp-action="Categories" asp-controller="Category" asp-area="Admin" method="get">
+
+    <div class="content-grids">
+        <div class="col-md-8 content-main">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table m-md-b-0">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>#</th>
+                                <th>Id</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Data.Result)
+                            {
+                                var count = 1;
+                                <tr>
+                                    <td scope="row">@count</td>
+                                    <td>@item.Id</td>
+                                    <td>@item.Name</td>
+                                </tr>
+                                count++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 m-b-1 m-md-b-0">
+                    <div class="col-md-4 col-sm-4 items-info">
+                        @{
+                            //var info = string.Format("Items {0} to {1} of {2} total", Model.Pagination.FirstRowOnPage, Model.Pagination.LastRowOnPage, Model.Pagination.RowCount);
+                            string info = _localizer.GetLocalizedHtmlString("Items {0} to {1} of {2} total");
+                            var informationTable = string.Format(info, Model.Pagination.FirstRowOnPage, Model.Pagination.LastRowOnPage, Model.Pagination.RowCount);
+                        }
+                        @*Items @Model.Pagination.FirstRowOnPage to @Model.Pagination.LastRowOnPage of @Model.Pagination.RowCount total*@
+                        @informationTable
+
+                    </div>
+                    <div>
+                        @if (Model.Pagination.PageCount > 0)
+                        {
+                            <ul class="pagination m-a-0">
+                                @if (Model.Pagination.CurrentPage != 1)
+                                {
+                                    <li class="page-item">
+                                        <button type="submit" name="page" value="@Model.Pagination.FistPage" class="page-link" aria-label="First">
+                                            <span aria-hidden="true">@_localizer.GetLocalizedHtmlString("First")</span>
+                                            <span class="sr-only">@_localizer.GetLocalizedHtmlString("First")</span>
+                                        </button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button type="submit" name="page" value="@Model.Pagination.PreviousPage" class="page-link" aria-label="Previous">
+                                            <span aria-hidden="true">@_localizer.GetLocalizedHtmlString("Previous")</span>
+                                            <span class="sr-only">@_localizer.GetLocalizedHtmlString("Previous")</span>
+                                        </button>
+                                    </li>
+                                }
+                                @for (var i = Model.Pagination.StartIndex; i <= Model.Pagination.FinishedIndex; i++)
+                                {
+                                    if (Model.Pagination.CurrentPage == i)
+                                    {
+                                        <li class="page-item active"><button class="page-link disabled" value="@i">@i</button></li>
+                                    }
+                                    else
+                                    {
+                                        <li class="page-item"><button type="submit" name="page" value="@i" class="page-link">@i</button></li>
+                                    }
+
+                                }
+                                @if (Model.Pagination.CurrentPage != Model.Pagination.FinishedIndex)
+                                {
+                                    <li class="page-item">
+                                        <button type="submit" name="page" value="@Model.Pagination.LastPage" class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">@_localizer.GetLocalizedHtmlString("Next")</span>
+                                            <span class="sr-only">@_localizer.GetLocalizedHtmlString("NExt")</span>
+                                        </button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button type="submit" name="page" class="page-link" value="@Model.Pagination.FinishedIndex" aria-label="Last">
+                                            <span aria-hidden="true">@_localizer.GetLocalizedHtmlString("Last")</span>
+                                            <span class="sr-only">@_localizer.GetLocalizedHtmlString("Last")</span>
+                                        </button>
+                                    </li>
+                                }
+                            </ul>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 content-right">
+           <div class="box box-block">
+               <h5>Filtre</h5>
+               <hr />
+               <div class="row">
+                   @foreach (var item in Model.Filters.Filter)
+                   {
+                       <div class="form-group">
+                           <label for="txtCategoryName">@item.Name</label>
+                           <input type="text" class="form-control" id="txtCategoryName" name="@item.Name" value="@item.Value">
+                       </div>
+                   }
+
+               </div>
+               <div class="row">
+                   <button type="submit" class="btn btn-primary">Uygula</button>
+               </div>
+           </div>
+        </div>
+    </div>
+
+
+
+
+</form>
